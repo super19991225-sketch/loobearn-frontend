@@ -5,13 +5,18 @@ import { CustomInput } from './components/customInput';
 import './App.css';
 
 function App() {
-  const handleClick =() => {
+  const handleClick = () => {
     console.log("Yes!!!")
+  }
+
+  const handleChangeInput = (e) => {
+    console.log(e.target.value);
   }
 
   return (
     <div className="App">
-      <CustomBtn value={"Are you stupid?"} onClick={handleClick}/>
+      <CustomInput onChange={handleChangeInput} />
+      <CustomBtn value={"Are you stupid?"} onClick={handleClick} />
     </div>
   );
 }

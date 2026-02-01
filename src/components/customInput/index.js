@@ -1,8 +1,10 @@
-
+import "./input.scss"
 
 export const CustomInput = (props) => {
-    const {name, type, onChange} = props;
+    const { name, type, onChange } = props;
     return (
-        <input name={name} type={type} onChange={onChange}/>
+        <div className="custom-input">
+            <input name={name} type={type} onChange={onChange} />
+        </div>
     )
 }

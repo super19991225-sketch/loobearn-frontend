@@ -1,0 +1,29 @@
+.signin-page {
+    /* Create Account */
+
+    position: relative;
+    width: 1440px;
+    height: 900px;
+
+    background: #F9F8F4;
+
+    .singnin-header {
+        /* Header */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 40px 124px;
+        gap: 103px;
+
+        position: absolute;
+        width: 1440px;
+        height: 140px;
+        left: calc(50% - 1440px/2);
+        top: 0px;
+
+
+    }
+
+}

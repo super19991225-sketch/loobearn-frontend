@@ -1,8 +1,18 @@
-import {CustomInput} from "../../../components/customInput";
+import { CustomInput } from "../../../components/customInput";
+
+import "./signin.scss"
 
 const Signin = () => {
     return (
-        <CustomInput />
+        <div className="signin-page">
+            <div className="signin-header">
+
+            </div>
+            <div className="signin-body">
+                <div className="signin">
+                </div>
+            </div>
+        </div>
     )
 }
 

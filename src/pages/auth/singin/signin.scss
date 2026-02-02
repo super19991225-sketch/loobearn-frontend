@@ -33,8 +33,22 @@
 
 	.signin-body {
 		z-index: 100;
-		background-color: black;
-		width: 50%;
-		height: 100vh;
+		display: flex;
+		flex-direction: row;
+
+		.signin-logo {
+			width: 50%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: linear-gradient(181.71deg, rgba(246, 232, 234, 0.24) -5%, rgba(249, 240, 230, 0.24) 37.12%, rgba(244, 158, 109, 0.24) 143.7%);
+
+		}
+
+		.signin-input {
+			width: 50%;
+			height: 100vh;
+		}
 	}
 }
